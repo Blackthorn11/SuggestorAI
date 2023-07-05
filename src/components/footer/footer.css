@@ -1,0 +1,46 @@
+footer {
+  height: 10vh;
+  background: #161616;
+  border-top: 1px solid #eeeeee1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+nav {
+  padding: 40px;
+  background: #161616;
+  border-bottom: 1px solid #eeeeee1f;
+}
+.count_mt {
+  margin-top: 20px;
+  min-height: 10vh;
+}
+.nav-link {
+  color: #a3a3a3;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+.nav-link:hover {
+  color: #e3ff73 !important;
+}
+.nav-link:active {
+  color: #e3ff73 !important;
+}
+.navbar-collapse {
+  align-items: center;
+  justify-content: center;
+}
+.navbar-toggler {
+  border-color: #ccc;
+}
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #ccc;
+  width: 30px;
+  height: 3px;
+  background-color: #ccc;
+  display: table-caption;
+  margin-top: 6px;
+}
