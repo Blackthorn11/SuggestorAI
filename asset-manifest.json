@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SuggestorAI/static/css/main.9ef5cc4e.css",
-    "main.js": "/SuggestorAI/static/js/main.95a14bbe.js",
+    "main.js": "/SuggestorAI/static/js/main.edc9a61a.js",
     "static/js/787.28cb0dcd.chunk.js": "/SuggestorAI/static/js/787.28cb0dcd.chunk.js",
     "static/media/Traveling.jpg": "/SuggestorAI/static/media/Traveling.b84d9074ea1832e162b2.jpg",
     "static/media/spinner.gif": "/SuggestorAI/static/media/spinner.77dd819870fd828d8944.gif",
@@ -19,11 +19,11 @@
     "index.html": "/SuggestorAI/index.html",
     "static/media/right-arrow-svgrepo-com.svg": "/SuggestorAI/static/media/right-arrow-svgrepo-com.30965b67aaaed545ef2654dfbad99c30.svg",
     "main.9ef5cc4e.css.map": "/SuggestorAI/static/css/main.9ef5cc4e.css.map",
-    "main.95a14bbe.js.map": "/SuggestorAI/static/js/main.95a14bbe.js.map",
+    "main.edc9a61a.js.map": "/SuggestorAI/static/js/main.edc9a61a.js.map",
     "787.28cb0dcd.chunk.js.map": "/SuggestorAI/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ef5cc4e.css",
-    "static/js/main.95a14bbe.js"
+    "static/js/main.edc9a61a.js"
   ]
 }
