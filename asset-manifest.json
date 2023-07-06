@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SuggestorAI/static/css/main.6320c39d.css",
+    "main.css": "/SuggestorAI/static/css/main.af7c31b1.css",
     "main.js": "/SuggestorAI/static/js/main.c543c678.js",
     "static/js/787.28cb0dcd.chunk.js": "/SuggestorAI/static/js/787.28cb0dcd.chunk.js",
     "static/media/Traveling.jpg": "/SuggestorAI/static/media/Traveling.b84d9074ea1832e162b2.jpg",
@@ -19,12 +19,12 @@
     "static/media/Kayak.png": "/SuggestorAI/static/media/Kayak.89f7f0b5059fed9c09a8.png",
     "index.html": "/SuggestorAI/index.html",
     "static/media/right-arrow-svgrepo-com.svg": "/SuggestorAI/static/media/right-arrow-svgrepo-com.30965b67aaaed545ef2654dfbad99c30.svg",
-    "main.6320c39d.css.map": "/SuggestorAI/static/css/main.6320c39d.css.map",
+    "main.af7c31b1.css.map": "/SuggestorAI/static/css/main.af7c31b1.css.map",
     "main.c543c678.js.map": "/SuggestorAI/static/js/main.c543c678.js.map",
     "787.28cb0dcd.chunk.js.map": "/SuggestorAI/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6320c39d.css",
+    "static/css/main.af7c31b1.css",
     "static/js/main.c543c678.js"
   ]
 }
