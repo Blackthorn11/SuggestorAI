@@ -1,4 +1,4 @@
-import "./style.css";
+import "../styles/header.css";
 import HeaderLogo from "../../images/SuggestorAILogo.jpg";
 
 export default function Header() {

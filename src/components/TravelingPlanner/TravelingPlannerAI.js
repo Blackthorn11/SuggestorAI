@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import GitImage from "./spinner.gif";
-import "./style.css"; // Import the style.css file
+import GitImage from "../../images/spinner.gif";
+import "../styles/sections.css";
 // import Section1 from '../../images/section1.webp'
-import steam from "../../images/steam.jpg";
-import ign from "../../images/IGN.webp";
-import humblebundle from "../../images/HumbleBundle.jpg";
+import TripAdvisor from "../../images/TripAdvisor.png";
+import Booking from "../../images/Booking.jpg";
+import Kayak from "../../images/Kayak.png";
+import { API } from "../../utils/api";
 
-function GamingSuggestorAI() {
+function TravelingPlannerAI() {
   // State for user input
   const [userInput, setUserInput] = useState("");
 
@@ -30,24 +31,16 @@ function GamingSuggestorAI() {
     // Show loading spinner
     setLoading(true);
 
-    // Send the user input to the server-side code using AJAX or fetch API
-    fetch("https://blackthorn11.pythonanywhere.com/generate-game", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ userInput: userInput }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
+    API(userInput, "generate-Travel-Plan")
+      .then((res) => {
         // Hide loading spinner
         setLoading(false);
 
         // Set the generated description
-        setDescription(data.description);
+        setDescription(res.description);
 
         // Display description gradually
-        displayGradually(data.description);
+        displayGradually(res.description);
       })
       .catch((error) => {
         // Hide loading spinner
@@ -70,21 +63,21 @@ function GamingSuggestorAI() {
         // Enable the button after the text is displayed
         setButtonDisabled(false);
       }
-    }, 50);
+    }, 30);
   };
 
   return (
     <div className="overflow-hidden">
       <div className="center-align">
         <div className="col-sm-12 text-center">
-          <h3 className="">Gaming AI Suggestions</h3>
+          <h3 className="">Traveling AI Planner</h3>
         </div>
         <div className="input-wrapper">
           <div className="d-flex w-100 text_box">
             <input
               type="text"
               id="book-input"
-              placeholder="Enter your gaming-desired keywords"
+              placeholder="Enter your travel keywords"
               value={userInput}
               onChange={(event) => setUserInput(event.target.value)}
             />
@@ -125,21 +118,21 @@ function GamingSuggestorAI() {
                 <div className="text-center">
                   <h3 className="text-white">
                     <a
-                      href="https://store.steampowered.com/"
+                      href="http://www.tripadvisor.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="links"
                     >
-                      Steam
+                      TripAdvisor
                     </a>
                   </h3>
                 </div>
               </div>
               <div className="image_section">
                 <img
-                  src={steam}
+                  src={TripAdvisor}
                   className="card-img-top"
-                  alt="steam store logo"
+                  alt="TripAdvisor logo"
                 />
               </div>
             </div>
@@ -151,18 +144,22 @@ function GamingSuggestorAI() {
                 <div className="text-center">
                   <h3 className="text-white">
                     <a
-                      href="https://www.ign.com/"
+                      href="http://www.booking.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="links"
                     >
-                      IGN
+                      Booking
                     </a>
                   </h3>
                 </div>
               </div>
               <div className="image_section">
-                <img src={ign} className="card-img-top" alt="IGN logo" />
+                <img
+                  src={Booking}
+                  className="card-img-top"
+                  alt="Booking site logo"
+                />
               </div>
             </div>
           </div>
@@ -173,22 +170,18 @@ function GamingSuggestorAI() {
                 <div className="text-center">
                   <h3 className="text-white">
                     <a
-                      href="https://www.humblebundle.com/"
+                      href="http://www.kayak.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="links"
                     >
-                      Humble Bundle
+                      Kayak
                     </a>
                   </h3>
                 </div>
               </div>
               <div className="image_section">
-                <img
-                  src={humblebundle}
-                  className="card-img-top"
-                  alt="Humble Bundle logo"
-                />
+                <img src={Kayak} className="card-img-top" alt="Kayak" />
               </div>
             </div>
           </div>
@@ -198,4 +191,4 @@ function GamingSuggestorAI() {
   );
 }
 
-export default GamingSuggestorAI;
+export default TravelingPlannerAI;

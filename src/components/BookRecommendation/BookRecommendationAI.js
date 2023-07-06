@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import GitImage from "./spinner.gif";
-import "./style.css"; // Import the style.css file
+import GitImage from "../../images/spinner.gif";
+import "../styles/sections.css";
 // import Section1 from '../../images/section1.webp'
 import Goodreads from "../../images/GoodReads.webp";
 import ProjectGutenberg from "../../images/ProjectGutenberg.png";
 import BookBub from "../../images/BookBub.webp";
+import { API } from "../../utils/api";
 
 function BookRecommendationAI() {
   // State for user input
@@ -30,24 +31,16 @@ function BookRecommendationAI() {
     // Show loading spinner
     setLoading(true);
 
-    // Send the user input to the server-side code using AJAX or fetch API
-    fetch("https://blackthorn11.pythonanywhere.com/generate-description", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ userInput: userInput }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
+    API(userInput, "generate-description")
+      .then((res) => {
         // Hide loading spinner
         setLoading(false);
 
         // Set the generated description
-        setDescription(data.description);
+        setDescription(res.description);
 
         // Display description gradually
-        displayGradually(data.description);
+        displayGradually(res.description);
       })
       .catch((error) => {
         // Hide loading spinner
@@ -70,7 +63,7 @@ function BookRecommendationAI() {
         // Enable the button after the text is displayed
         setButtonDisabled(false);
       }
-    }, 50);
+    }, 30);
   };
 
   return (
