@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import GitImage from "../../images/spinner.gif";
-import "../styles/sections.css";
+import "../../styles/sections.css";
 // import Section1 from '../../images/section1.webp'
 import Goodreads from "../../images/GoodReads.webp";
 import ProjectGutenberg from "../../images/ProjectGutenberg.png";

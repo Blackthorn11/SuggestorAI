@@ -5,7 +5,7 @@ import Gaming from "../../images/Gaming.jpg";
 import Header from "../header/header";
 import ImageSvg from "../../images/right-arrow-svgrepo-com.svg";
 import { Link } from "react-router-dom";
-import "../styles/sections.css";
+import "../../styles/sections.css";
 function Sections() {
   return (
     <div>
