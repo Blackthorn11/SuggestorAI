@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SuggestorAI/static/css/main.9ef5cc4e.css",
+    "main.js": "/SuggestorAI/static/js/main.95a14bbe.js",
+    "static/js/787.28cb0dcd.chunk.js": "/SuggestorAI/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Traveling.jpg": "/SuggestorAI/static/media/Traveling.b84d9074ea1832e162b2.jpg",
+    "static/media/spinner.gif": "/SuggestorAI/static/media/spinner.77dd819870fd828d8944.gif",
+    "static/media/Books.jpg": "/SuggestorAI/static/media/Books.6b7bf059d18edf2575f8.jpg",
+    "static/media/Gaming.jpg": "/SuggestorAI/static/media/Gaming.c3f686469b740f35b7dc.jpg",
+    "static/media/GoodReads.webp": "/SuggestorAI/static/media/GoodReads.046a8d76247152ee998f.webp",
+    "static/media/BookBub.webp": "/SuggestorAI/static/media/BookBub.db5170072a9801e3c457.webp",
+    "static/media/HumbleBundle.jpg": "/SuggestorAI/static/media/HumbleBundle.b26ac8e00a66001df072.jpg",
+    "static/media/TripAdvisor.png": "/SuggestorAI/static/media/TripAdvisor.1c1632dd97323f017807.png",
+    "static/media/ProjectGutenberg.png": "/SuggestorAI/static/media/ProjectGutenberg.47349f1b89dcac4ba6e1.png",
+    "static/media/steam.jpg": "/SuggestorAI/static/media/steam.52d7b83e566a13f01fd6.jpg",
+    "static/media/SuggestorAILogo.jpg": "/SuggestorAI/static/media/SuggestorAILogo.56edf77ec4520a1aa899.jpg",
+    "static/media/IGN.webp": "/SuggestorAI/static/media/IGN.ffe2cee9dde85baf3177.webp",
+    "static/media/Kayak.png": "/SuggestorAI/static/media/Kayak.89f7f0b5059fed9c09a8.png",
+    "index.html": "/SuggestorAI/index.html",
+    "static/media/right-arrow-svgrepo-com.svg": "/SuggestorAI/static/media/right-arrow-svgrepo-com.30965b67aaaed545ef2654dfbad99c30.svg",
+    "main.9ef5cc4e.css.map": "/SuggestorAI/static/css/main.9ef5cc4e.css.map",
+    "main.95a14bbe.js.map": "/SuggestorAI/static/js/main.95a14bbe.js.map",
+    "787.28cb0dcd.chunk.js.map": "/SuggestorAI/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ef5cc4e.css",
+    "static/js/main.95a14bbe.js"
+  ]
+}
