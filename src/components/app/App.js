@@ -6,6 +6,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Sections from "../sections/sections";
 import Footer from "../footer/footer";
 import Navbar from "../navbar/navbar";
+import NotFound from "../NotFound/NotFound";
 function App() {
   return (
     <Router>
@@ -20,6 +21,7 @@ function App() {
           />
           <Route path="/TravelingPlannerAI" element={<TravelingPlannerAI />} />
           <Route path="/GamingSuggestorAI" element={<GamingSuggestorAI />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>

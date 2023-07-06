@@ -84,6 +84,11 @@ body {
   margin-top: 10px;
 }
 
+.page404 {
+  text-align: center;
+  padding: 10px 10px;
+}
+
 #result {
   margin-top: 20px;
   padding: 20px;
@@ -169,6 +174,7 @@ body {
   align-items: center;
   padding: 72px;
 }
+
 .text h3 {
   font-size: 50px;
   font-size: bold;
