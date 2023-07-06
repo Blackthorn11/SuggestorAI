@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;800;900;1000&family=Geologica:wght@200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: inter;
+  src: url(../vendor/fonts/Inter-Medium.ttf);
+}
 
 body {
-  font-family: "Geologica", sans-serif !important;
+  font-family: inter, sans-serif;
   margin: 0;
 }
 
@@ -25,10 +28,8 @@ body {
   padding: 20px;
 }
 
-.logo-container {
-}
 .main-logo {
-  width: 300px;
+  width: 250px;
   height: auto;
   margin-right: 20px;
 }
@@ -37,6 +38,21 @@ body {
   font-size: 18px;
   color: #333;
   line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .main-logo {
+    width: 150px;
+  }
+
+  .header_text {
+    font-size: 16px;
+  }
 }
 
 #book-input {

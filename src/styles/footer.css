@@ -1,3 +1,13 @@
+@font-face {
+  font-family: inter;
+  src: url(../vendor/fonts/Inter-Medium.ttf);
+}
+
+body {
+  font-family: inter, sans-serif;
+  margin: 0;
+}
+
 footer {
   height: 10vh;
   background: #161616;
