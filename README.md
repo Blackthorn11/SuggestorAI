@@ -8,6 +8,6 @@ Enter your keywords: Begin by identifying the main keywords or terms related to 
 
 Once you've entered your keywords, SuggestorAI will generate a relevant suggestion based on its sophisticated algorithms.
 
-### [Click here to visit the website live](https://blackthorn11.github.io/SuggestorAI)
+### [Click here to visit the website live](https://blackthorn11.github.io/SuggestorAI/#)
 
 -Built with React
