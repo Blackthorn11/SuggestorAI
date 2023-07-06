@@ -13,7 +13,6 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          {/* <BookDescriptionGenerator /> */}
           <Route exact path="/" element={<Sections />} />
           <Route
             path="/BookRecommendationAI"
