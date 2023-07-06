@@ -2,7 +2,7 @@ import React from "react";
 import BookRecommendationAI from "../BookRecommendation/BookRecommendationAI";
 import TravelingPlannerAI from "../TravelingPlanner/TravelingPlannerAI";
 import GamingSuggestorAI from "../GamingRecommendation/GamingRecommendationAI";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Sections from "../sections/sections";
 import Footer from "../footer/footer";
 import Navbar from "../navbar/navbar";
@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           {/* <BookDescriptionGenerator /> */}
-          <Route path="*" element={<Sections />} />
+          <Route exact path="/" element={<Sections />} />
           <Route
             path="/BookRecommendationAI"
             element={<BookRecommendationAI />}
