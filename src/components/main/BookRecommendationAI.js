@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import GitImage from "./spinner.gif";
 import "./style.css"; // Import the style.css file
 // import Section1 from '../../images/section1.webp'
-import Books from "../../images/Books.jpg";
-import Traveling from "../../images/Traveling.jpg";
-import Books3 from "../../images/Gaming.jpg";
 import Goodreads from "../../images/GoodReads.webp";
 import ProjectGutenberg from "../../images/ProjectGutenberg.png";
 import BookBub from "../../images/BookBub.webp";
@@ -34,7 +31,7 @@ function BookRecommendationAI() {
     setLoading(true);
 
     // Send the user input to the server-side code using AJAX or fetch API
-    fetch("http://blackthorn11.pythonanywhere.com/generate-description", {
+    fetch("https://blackthorn11.pythonanywhere.com/generate-description", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

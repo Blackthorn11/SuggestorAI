@@ -3,15 +3,15 @@ import HeaderLogo from "../../images/SuggestorAILogo.jpg";
 
 export default function Header() {
   return (
-    <div class="header">
-      <div class="logo-container">
+    <div className="header">
+      <div className="logo-container">
         <img
           src={HeaderLogo}
-          class="card-img-top main-logo"
+          className="card-img-top main-logo"
           alt="SuggestorAILogo"
         />
       </div>
-      <div class="header_text">
+      <div className="header_text">
         <p>
           Welcome to SuggestorAI! designed to simplify your decision-making
           process. With our intuitive platform, you can harness the power of

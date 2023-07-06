@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           {/* <BookDescriptionGenerator /> */}
-          <Route exact path="/" element={<Sections />} />
+          <Route path="*" element={<Sections />} />
           <Route
             path="/BookRecommendationAI"
             element={<BookRecommendationAI />}

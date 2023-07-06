@@ -31,7 +31,7 @@ function GamingSuggestorAI() {
     setLoading(true);
 
     // Send the user input to the server-side code using AJAX or fetch API
-    fetch("http://blackthorn11.pythonanywhere.com/generate-game", {
+    fetch("https://blackthorn11.pythonanywhere.com/generate-game", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

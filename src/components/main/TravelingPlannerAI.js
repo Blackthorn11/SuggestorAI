@@ -31,7 +31,7 @@ function TravelingPlannerAI() {
     setLoading(true);
 
     // Send the user input to the server-side code using AJAX or fetch API
-    fetch("http://blackthorn11.pythonanywhere.com/generate-Travel-Plan", {
+    fetch("https://blackthorn11.pythonanywhere.com/generate-Travel-Plan", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
